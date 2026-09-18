@@ -41,7 +41,7 @@ Claude Code, project-level (recommended, so it ships with the repo):
 ```
 mkdir -p .claude/skills/guarded-dev-cycle
 curl -o .claude/skills/guarded-dev-cycle/SKILL.md \
-  https://raw.githubusercontent.com/kreoflow/guarded-dev-cycle/main/skills/guarded-dev-cycle/SKILL.md
+  https://raw.githubusercontent.com/sharmaamahesh5-a11y/guarded-dev-cycle/main/skills/guarded-dev-cycle/SKILL.md
 ```
 
 Claude Code, user-level (every repo on your machine): same file into `~/.claude/skills/guarded-dev-cycle/SKILL.md`.
@@ -49,7 +49,7 @@ Claude Code, user-level (every repo on your machine): same file into `~/.claude/
 Any agent that supports the skills CLI:
 
 ```
-npx skills add kreoflow/guarded-dev-cycle
+npx skills add sharmaamahesh5-a11y/guarded-dev-cycle
 ```
 
 Cursor: copy `skills/guarded-dev-cycle/SKILL.md` into `.cursor/skills/`. Codex, Gemini CLI, Windsurf and others: their equivalent skills or rules directory.
